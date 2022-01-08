@@ -1,2 +1,37 @@
-$bg-main:rgb(180, 156, 156);
-$text: black;
+$bg-main: rgba(255, 255, 255, 1);
+$text: rgba(0, 0, 0, 1);
+$btn-or-link--text: hsl(321, 100%, 78%);
+//style root
+body,
+h1,
+h2,
+div,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin btn-or-link {
+    text-decoration: none;
+    // color part
+    background-color: $btn-or-link--text;
+    border: none;
+    border: 1px solid $btn-or-link--text;
+    color: $bg-main;
+    // border and other style part
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+@mixin btn-or-link-hover {
+    // color part
+    border: 1px solid $btn-or-link--text;
+    color: $btn-or-link--text;
+    background-color: $bg-main;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding: 10px 20px;
+}

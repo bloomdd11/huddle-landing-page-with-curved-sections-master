@@ -1,0 +1,15 @@
+body {
+    color: $text;
+    background-color: $bg-main;
+}
+
+//huddle-hv
+.huddle-hv {
+    background-color: aqua;
+    &__greeting {
+        background-color: bisque;
+    }
+    &__status {
+        background-color: aquamarine;
+    }
+}

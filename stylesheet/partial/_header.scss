@@ -1,0 +1,29 @@
+.huddle-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+    margin-bottom: 100px;
+    background-color: var($bg-main);
+    //background-color: aqua;
+    .huddle-heading {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        & img {
+            width: 20%;
+            height: 60%;
+            margin-top: 8px;
+        }
+    }
+    &__tryItFree {
+        margin-right: 50px;
+        @include btn-or-link;
+        align-self: center;
+        &:hover {
+            @include btn-or-link-hover;
+        }
+    }
+}

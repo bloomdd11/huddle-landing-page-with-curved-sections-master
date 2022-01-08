@@ -1,0 +1,53 @@
+.huddle-hv {
+    // margin padding width part
+    margin: 0 auto;
+    // display part
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //
+    //huddle-hv__greeting
+    &__greeting {
+        //margin padding width part
+        margin-bottom: 50px;
+        //display
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            //font
+            text-align: center;
+            //margin padding width part
+            margin: 10px 0;
+        }
+        p {
+            //margin padding width part
+            width: 50%;
+            margin: 10px 0;
+            //font
+            font-size: 10px;
+            text-align: center;
+        }
+        button {
+            @include btn-or-link-hover;
+            //margin padding width part
+            width: 30%;
+            margin: 10px 0;
+            &:hover {
+                @include btn-or-link;
+                width: 30%;
+            }
+        }
+    }
+    //
+    //huddle-hv__status
+    &__status {
+        //margin padding width part
+        width: 100%;
+        // display part
+        display: flex;
+        flex-direction: row;
+    }
+}
