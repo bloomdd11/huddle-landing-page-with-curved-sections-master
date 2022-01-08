@@ -1,5 +1,6 @@
 .huddle-hv {
     // margin padding width part
+    width: 80%;
     margin: 0 auto;
     // display part
     display: flex;
@@ -19,6 +20,8 @@
         h2 {
             //font
             text-align: center;
+            font-weight: 900;
+            font-size: 40px;
             //margin padding width part
             margin: 10px 0;
         }
@@ -27,8 +30,9 @@
             width: 50%;
             margin: 10px 0;
             //font
-            font-size: 10px;
+            font-size: 12px;
             text-align: center;
+            font-weight: 500
         }
         button {
             @include btn-or-link-hover;
@@ -42,12 +46,54 @@
         }
     }
     //
+    //hddle-hv__image
+    &__image {
+        //margin padding width
+        width: fit-content;
+        margin-bottom: 50px;
+        //display
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 84%;
+            height: auto;
+        }
+    }
+    //
     //huddle-hv__status
     &__status {
         //margin padding width part
-        width: 100%;
+        width: 70%;
         // display part
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        //img
+        img {
+            //margin padding width
+            width: 16%;
+            height: auto;
+        }
+        //number_p
+        .number_p {
+            //font
+            font-size: 50px;
+            font-weight: 700;
+            .number {
+                //font
+                font-size: 50px;
+                font-weight: 700;
+            }
+        }
+        //p
+        .huddle-final-message {
+            //font
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.6;
+            text-align: center;
+        }
     }
 }

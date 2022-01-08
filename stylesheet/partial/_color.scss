@@ -5,11 +5,11 @@ body {
 
 //huddle-hv
 .huddle-hv {
-    background-color: aqua;
+    background-color: var($bg-main);
     &__greeting {
-        background-color: bisque;
+        background-color: $bg-main;
     }
     &__status {
-        background-color: aquamarine;
+        background-color: var($bg-main);
     }
 }
