@@ -13,3 +13,14 @@ body {
         background-color: var($bg-main);
     }
 }
+
+//huddle-main
+.huddle-main {
+    background-color: $bg-main;
+    &-l1:nth-child(1) {
+        background-color: blue;
+    }
+    &-l1:nth-child(3) {
+        background-color: $Very-Pale-Blue;
+    }
+}

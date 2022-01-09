@@ -1,0 +1,36 @@
+.huddle-main {
+    //m-p-w
+    width: 100%;
+    //d
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-l1x0 {
+        // m-p-w
+        margin: 100px 0;
+        width: 100%;
+        //d
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &-l1x1 {
+        //m-p-w
+        padding: 10px 100px;
+        h3 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+    }
+    &-l1x2 {
+        img {
+            width: 80%;
+            height: auto;
+        }
+    }
+    //huddle-main__flowing
+    &__flowing {
+        flex-direction: row-reverse;
+    }
+}

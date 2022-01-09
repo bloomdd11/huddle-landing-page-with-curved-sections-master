@@ -1,8 +1,11 @@
 body,
 h1,
 h2,
+h3,
 div,
-p {
+p,
+img,
+svg {
   padding: 0;
   margin: 0;
 }
@@ -22,6 +25,18 @@ body {
 
 .huddle-hv__status {
   background-color: var(white);
+}
+
+.huddle-main {
+  background-color: white;
+}
+
+.huddle-main-l1:nth-child(1) {
+  background-color: blue;
+}
+
+.huddle-main-l1:nth-child(3) {
+  background-color: #f5faff;
 }
 
 .huddle-header {
@@ -240,6 +255,59 @@ body {
   font-weight: 500;
   opacity: 0.6;
   text-align: center;
+}
+
+.huddle-main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.huddle-main-l1x0 {
+  margin: 100px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.huddle-main-l1x1 {
+  padding: 10px 100px;
+}
+
+.huddle-main-l1x1 h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.huddle-main-l1x2 img {
+  width: 80%;
+  height: auto;
+}
+
+.huddle-main__flowing {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 body {
