@@ -18,10 +18,10 @@ body {
 .huddle-main {
     background-color: $bg-main;
     &-l1:nth-child(1) {
-        background-color: blue;
+        background-color: $Very-Pale-Blue;
     }
     &-l1:nth-child(3) {
-        background-color: blue;
+        background-color: $Very-Pale-Blue;
     }
 }
 
@@ -30,5 +30,5 @@ body {
 }
 
 .custom-shape-divider-bottom-1641725938 .shape-fill {
-    fill: blue;
+    fill: $Very-Pale-Blue;
 }

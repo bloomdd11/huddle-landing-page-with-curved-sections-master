@@ -1,6 +1,7 @@
 .huddle-main {
     //m-p-w
     width: 100%;
+    margin: 10% 0;
     //d
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
     align-items: center;
     &-l1 {
         margin: 0px 0;
+        width: 100%;
     }
     &-l1x0 {
         // m-p-w
@@ -35,5 +37,23 @@
     //huddle-main__flowing
     &__flowing {
         flex-direction: row-reverse;
+    }
+    //ready to build your community
+    &-l1xx {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & h2 {
+            margin-bottom: 10px;
+        }
+        & button {
+            @include btn-or-link;
+            width: 15%;
+            &:hover {
+                @include btn-or-link-hover;
+                width: 15%;
+            }
+        }
     }
 }

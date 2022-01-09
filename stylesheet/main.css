@@ -32,11 +32,11 @@ body {
 }
 
 .huddle-main-l1:nth-child(1) {
-  background-color: blue;
+  background-color: #f5faff;
 }
 
 .huddle-main-l1:nth-child(3) {
-  background-color: blue;
+  background-color: #f5faff;
 }
 
 .custom-shape-divider-top-1641724559 .shape-fill {
@@ -44,7 +44,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1641725938 .shape-fill {
-  fill: blue;
+  fill: #f5faff;
 }
 
 .huddle-header {
@@ -267,6 +267,7 @@ body {
 
 .huddle-main {
   width: 100%;
+  margin: 10% 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,6 +285,7 @@ body {
 
 .huddle-main-l1 {
   margin: 0px 0;
+  width: 100%;
 }
 
 .huddle-main-l1x0 {
@@ -320,6 +322,60 @@ body {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.huddle-main-l1xx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.huddle-main-l1xx h2 {
+  margin-bottom: 10px;
+}
+
+.huddle-main-l1xx button {
+  text-decoration: none;
+  background-color: #ff8fd8;
+  border: none;
+  border: 1px solid #ff8fd8;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 15%;
+}
+
+.huddle-main-l1xx button:hover {
+  border: 1px solid #ff8fd8;
+  color: #ff8fd8;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 15%;
 }
 
 body {
