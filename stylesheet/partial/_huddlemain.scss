@@ -6,9 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    &-l1 {
+        margin: 0px 0;
+    }
     &-l1x0 {
         // m-p-w
-        margin: 100px 0;
+        margin: 5px 0;
         width: 100%;
         //d
         display: flex;
